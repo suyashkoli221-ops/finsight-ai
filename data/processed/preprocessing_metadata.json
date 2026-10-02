@@ -1,0 +1,13 @@
+{
+    "random_state": 42,
+    "test_size": 0.2,
+    "target": "Class",
+    "scaled_features": [
+        "Time",
+        "Amount"
+    ],
+    "original_training_rows": 227845,
+    "testing_rows": 56962,
+    "smote_training_rows": 454902,
+    "feature_count": 30
+}

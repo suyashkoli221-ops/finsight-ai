@@ -1,0 +1,68 @@
+# Virtual environment
+
+.venv/
+venv/
+env/
+
+# Python cache files
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# IDE and editor files
+
+.vscode/
+.idea/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+
+*.log
+*.tmp
+
+# Test and coverage artifacts
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+
+.streamlit/secrets.toml
+
+# Raw dataset (large file)
+
+data/raw/creditcard.csv
+
+# Optional: generated training and test data
+
+# data/processed/train_scaled.csv
+
+# data/processed/test_scaled.csv
+
+# Large datasets
+data/raw/creditcard.csv
+data/processed/train_smote.csv
+data/processed/train_scaled.csv
+data/processed/test_scaled.csv
+
+# Unused models
+models/random_forest_smote.pkl
+models/random_forest_weighted.pkl
+models/xgboost_smote.pkl
+models/xgboost_weighted.pkl
